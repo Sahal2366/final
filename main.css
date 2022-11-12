@@ -1,0 +1,120 @@
+.siteHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+    background-color: rgb(3, 3, 70);
+    
+}
+p {
+    margin-bottom: 0;
+}
+.siteHeader img{
+max-width: 180px;
+}
+.navigation ul{
+display:flex;
+gap: 20px;
+
+}
+.navigation{
+    margin-right: 20px;
+    font-family: oswald sans-serif;
+    font-weight: bold;
+}
+.navigation ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-left: 20px;
+
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navigation ul li a:hover{
+    color: green;
+}
+.stringOfNav{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    background-color: bisque;
+}
+.pics{
+    background-image: url(./images/IMG_8525.jpg);
+    background-size: cover;
+    background-position: 0px -100px;
+    height: 575px;
+    display: flex;
+    width: 100%
+    
+}
+.picText h1 {
+margin-left: 20px;
+margin-top: 20px;
+color:rgb(3, 3, 70);
+font-size: 2rem;
+}
+.picText{
+    background-color: rgba(255,255,255,0.9);
+    color: green;
+    border: 1px solid red;
+    width: 380px;
+    height: 380px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 60px;
+    margin-left: 50px;
+} 
+.picText p{
+    margin-left: 20px;
+}
+.picText button{
+    margin-left: 20px;
+}
+
+.underTitle{
+    text-align: center;
+    margin-top: 50px;
+}
+.importantFeatures{
+    
+    padding-left: 40px;
+    margin-top: 60px;
+    font-size: 1.5rem;
+    
+}
+.importantFeatures h1{
+    width: 450px;
+}
+.container{
+    display: flex;
+    gap: 200px;
+}
+.quranImage{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.lastContainer{
+    text-align: center;
+}
+.containerTwo{
+    padding: 20px;
+    font-size: 1.5rem;
+margin-bottom: 60px;
+}
+.lastHeader{
+    text-align: center;
+}
+.hypeContainer p{
+padding: 20px;
+font-size: 1.5rem;
+}
+
+@media (max-width: 1024px){
+
+}
+/* find the picture in finder  */
+/* open the picture  */
+/* go to tools adjust size switch to pixels shrink to about 2000 */
+/* go to file then export select jpg then export image  */
