@@ -19,7 +19,7 @@ gap: 20px;
 }
 .navigation{
     margin-right: 20px;
-    font-family: oswald sans-serif;
+    font-family: Spartan,sans-serif;
     font-weight: bold;
 }
 .navigation ul li{
@@ -35,10 +35,13 @@ gap: 20px;
 .navigation ul li a:hover{
     color: green;
 }
+.firdousToggle{
+    display: none;
+}
 .stringOfNav{
     text-align: center;
     font-size: 1.5rem;
-    font-family: 'Lato', sans-serif;
+    font-family: Spartan,sans-serif;
     background-color: bisque;
 }
 .pics{
@@ -50,6 +53,26 @@ gap: 20px;
     width: 100%
     
 }
+.aboutImage{
+    /* background-image: url(./images/IMG_8534.jpg); */
+    background-size: contain;
+    background-position: center -100px;
+    /* min-height: 575px; */
+    display: flex;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+    
+
+}
+.aboutImage img {
+    /* height: 100%; */
+    /* width: 100%; */
+    max-height: 575px;
+    margin: auto;
+    border: 3px solid black;
+    margin-top: 0;
+}
 .picText h1 {
 margin-left: 20px;
 margin-top: 20px;
@@ -59,23 +82,37 @@ font-size: 2rem;
 .picText{
     background-color: rgba(255,255,255,0.9);
     color: green;
-    border: 1px solid red;
     width: 380px;
-    height: 380px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 350px;
+    font-family: Spartan,sans-serif;
     margin-top: 60px;
     margin-left: 50px;
 } 
+.textHide{
+    display: none;
+}
 .picText p{
     margin-left: 20px;
 }
 .picText button{
-    margin-left: 20px;
+    margin-left: 90px;
+    margin-top: 20px;
+background-color: red;
 }
-
+.mobileHide img{
+    display: none;
+}
 .underTitle{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 24px;
+    font-family: Spartan,sans-serif;
+    color: black;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 .importantFeatures{
     
@@ -86,6 +123,10 @@ font-size: 2rem;
 }
 .importantFeatures h1{
     width: 450px;
+}
+.importantFeatures p{
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .container{
     display: flex;
@@ -98,21 +139,166 @@ font-size: 2rem;
 .lastContainer{
     text-align: center;
 }
-.containerTwo{
+.containerThree{
     padding: 20px;
     font-size: 1.5rem;
 margin-bottom: 60px;
+border: 2px solid black;
+border-radius: 5px 5px 5px 5px;
+margin: 20px;
 }
 .lastHeader{
     text-align: center;
+}
+.lastP{
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 5px 5px 5px 5px;
 }
 .hypeContainer p{
 padding: 20px;
 font-size: 1.5rem;
 }
+.imageClass{
+   width: 200px;
+   height: 200px;
+}
+.endGame{
+    background-color: rgb(2, 2, 51);
+}
+.socialMedia{
+    display: flex;
+    margin-top: 50px;
+    justify-content: flex-end;
+    
+}
+.socialM img{
+    width: 100px;
+}
+.socialMds img{
+    width: 90px;
+}
+.SocialP img{
+    width: 100px;
+}
+.videoEmbed{
+    margin-left: 400px;
+    margin-right: 90px;
+   margin-top: 90px;
+  
+}
+.headOne{
+    display: flex;
+    background: #f4f5f6;
+}
+.headOne p{
+margin-top: 20px;
+font-size: 20px;
+padding-top: 15px;
+padding-left: 15px;
+}
+.headOne img{
+    width: 130px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
 
-@media (max-width: 1024px){
+.whyJoin{
+    border: 1px solid #cfd7de;
+    width: 400px;
+    height: 400px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.listItems li img{
+    width: 30px;
+}
+.listItems li{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+}
 
+.containerAbout{
+font-size: 1.5rem;
+padding: 20px;
+
+color: rgb(3, 3, 70);
+}
+.containerAbout p{
+    padding: 10px;
+}
+@media (max-width: 768px){
+.firdousToggle{
+    display: block;
+    font-size: 30px;
+    color: aliceblue;
+    margin-right: 15px;
+}
+.siteHeader{
+    display:flex;
+    flex-wrap: wrap;
+    
+
+}
+.navigation{
+    display: block;
+    width: 100%;
+}
+.navigation ul{
+    flex-direction: column;
+    margin-top: 15px;
+}
+.navigationHide{
+    display: none;
+}
+.pics{
+    display: none;
+}
+.mobileHide img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.textHide h1{
+    width: 100%;
+    color: rgb(12, 12, 63);
+    
+
+}
+.textHide{
+    display: block;
+    font-family: Spartan,sans-serif;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    border: 1px solid #cfd7de;
+    margin-bottom: 10px;
+}
+.whyJoin{
+    margin-left: 45px;
+    
+}
+.aboutImage img{
+    height: auto;
+    width: 600px;
+}
+.aboutImage{
+    display: block;
+    margin-top: 0;
+}
+.videoEmbed{
+    margin-top: 30px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0;
+}
+.textHide button{
+    margin-left: 90px;
+    margin-top: 20px;
+background-color: red;
+margin-bottom: 15px;
+}
 }
 /* find the picture in finder  */
 /* open the picture  */
